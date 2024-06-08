@@ -1,3 +1,4 @@
+
 #Join me at telegram @dev_gagan
 
 from pyrogram import Client
@@ -13,12 +14,12 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 logging.getLogger("telethon").setLevel(logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = "18532876" #config("API_ID", default=None, cast=int)
+API_HASH = "c8be256015a242035196e801108af49f"#config("API_HASH", default=None)
+BOT_TOKEN = "7309599729:AAHbypsWgcon-sBbYKIPmhswhm9upMPenro"#config("BOT_TOKEN", default=None)
+SESSION = "BQEaygwAEs1mguh-oniSkeUb7sjRk6-AiquYaVsNadEWRknvRUJ0H9QUDCTy7RuFINBknbUPqU7pgmp1AXYMUhzHwbfHLpB909TfB2jcgs7sk2z-cIli20Wk9Bq-2IUSD-fB9NrwMulOhTsWJDXIDUZd6K9zcUoyr1Mc0_Svo0EXCTefsJ8l9SM1hHq9CieuS93w_k0_QKBmVbqPJPliqgJuvcbdmjCHtD4XzGsgU8orMMh56Zjpih7LZ6q6GEBgfU-UE73meU7gWSrDrhawRMKx1HnllXepu77RNf2MqzQLRqlRQexj1Hwf83bNOvuhlQz_srUhwp19LxPjVC2-Gf463yYmzgAAAAGzr6PxAQ"#config("SESSION", default=None)
+FORCESUB = "premium_books_pdfs" #config("FORCESUB", default=None)
+AUTH = "1466653662" #config("AUTH", default=None)
 SUDO_USERS = []
 
 if len(AUTH) != 0:
